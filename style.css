@@ -20,13 +20,15 @@ header{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .meet{
-    padding-right: 14px;
+    padding-right: 20px;
 }
 
 .bubble{
     margin-top: 40px;
     width: 420px;
+   
 }
