@@ -57,6 +57,7 @@ header{
 #buttons{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 a{
@@ -69,6 +70,7 @@ a{
     background-color:#4D96A9 ;
     padding: 17px 35px;
     border-radius: 25px;
+    font-weight: bold;
 }
 
 .turq:hover{
@@ -82,9 +84,11 @@ a{
 .purp{
     color: #FAFAFA; 
     background-color: #855FB1;
-    padding: 15px 30px;
+    width: 120px;
+    padding: 15px 12px;
     border-radius: 25px;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 .faded{
@@ -117,4 +121,22 @@ a{
     font-weight: bold;
   
    
+}
+
+#images{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.imageblock{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cube{
+    display: inline-block;
+    width: 150px;
+    border-radius: 10px;
 }
