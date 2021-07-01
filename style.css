@@ -54,6 +54,11 @@ header{
     margin-top: 0px;
 }
 
+#buttons{
+    display: flex;
+    flex-direction: column;
+}
+
 a{
     display: inline-block;
     text-decoration: none;
@@ -84,4 +89,22 @@ a{
 
 .faded{
     color: #8FE3F9;
+}
+
+#second_section{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    align-items: center;
+}
+
+.circle{
+    color: #87879D;
+    border: 1px solid #87879D;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+   
 }
