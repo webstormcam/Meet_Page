@@ -20,14 +20,14 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     overflow: hidden;
 }
 
 
 
 .bubble{
-    margin-top: 80px;
+    margin-top: 40px;
     width: 420px;
    
 }
@@ -62,8 +62,16 @@ a{
 .turq{
     color: #FAFAFA;
     background-color:#4D96A9 ;
-    padding: 15px 30px;
+    padding: 17px 35px;
     border-radius: 25px;
+}
+
+.turq:hover{
+    background-color:#70a5b1;
+}
+
+.purp:hover{
+    background-color: #b585eb;
 }
 
 .purp{
@@ -71,4 +79,9 @@ a{
     background-color: #855FB1;
     padding: 15px 30px;
     border-radius: 25px;
+    margin-top: 15px;
+}
+
+.faded{
+    color: #8FE3F9;
 }
