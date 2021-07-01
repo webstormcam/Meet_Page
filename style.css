@@ -35,6 +35,8 @@ header{
 #intro_section{
     width: 375px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #intro_section h1{
@@ -47,4 +49,5 @@ header{
     color: #87879D;
     font-size: 18px;
     line-height: 1.5em;
+    margin-top: 0px;
 }
