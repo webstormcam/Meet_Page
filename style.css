@@ -5,6 +5,7 @@
 html,body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 #container{
@@ -26,7 +27,23 @@ header{
 
 
 .bubble{
-    margin-top: 40px;
+    margin-top: 80px;
     width: 420px;
    
+}
+
+#intro_section{
+    width: 375px;
+    text-align: center;
+}
+
+#intro_section h1{
+    font-size: 40px;
+    color: #28283d;
+    font-weight: 900;
+}
+
+#intro_section p{
+    color: #87879D;
+    font-size: 18px;
 }
