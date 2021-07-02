@@ -148,3 +148,7 @@ a{
 .imageblock:nth-child(2){
     margin-top: 20px;
 }
+
+#words{
+    text-align: center;
+}
