@@ -150,5 +150,28 @@ a{
 }
 
 #words{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+}
+
+ .grey{
+color: #87879D;
+line-height: 1.5em;
+font-size: 18px;
+}
+
+.boldblue{
+   color: turquoise;
+   font-weight: 900;
+    
+}
+
+#words h2{
+    font-size: 30px;
+    color: #28283d;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
