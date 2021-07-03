@@ -206,11 +206,24 @@ footer{
     align-items: center;
     position: relative;
     padding: 60px;
+    
+   
+}
+
+.layer {
+    background-color: hsla(279, 73%, 46%, 0.61);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
    
 }
 
 footer h2, p{
     color: #fff;
+    z-index: 10;
 }
 
 
@@ -221,6 +234,7 @@ footer h2, p{
     border-radius: 25px;
     font-weight: bold;
     background-color: #855FB1;
+    z-index: 10;
 }
 
 .purpfaded{
