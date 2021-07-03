@@ -16,7 +16,7 @@ html,body{
 }
 
 header{
-    width: 391px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,10 +185,11 @@ font-size: 18px;
     width:100%;
     align-items: center;
     position: relative;
+    margin-top: 20px;
 }
 
 footer{
-    width: 391px;
+    width: 375px;
     background-image: url('imgs/mobile/image-footer.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -232,4 +233,15 @@ footer{
     top: 107px;
     z-index: 99;
     background-color: #fff;
+}
+.verticalbtm {
+    border-left: 1px solid #b8a9a9;
+    height: 100px;
+    margin-top: 40px;
+   
+    
+}
+
+footer h2{
+    font-size: 30px;
 }
