@@ -212,7 +212,7 @@ footer{
 }
 
 .layer {
-    background-color: hsl(192, 37%, 48%, 0.61);
+    background-color: hsl(192, 37%, 48%, 0.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -336,6 +336,18 @@ footer h2{
         background-image: url('imgs/tablet/image-footer.jpg');
         width: 768px;
     }
+
+    #words h2{
+        font-size: 45px;
+    }
+
+  .grey{
+      width: 600px;
+  }
+
+  footer p{
+      width: 500px;
+  }
    
 
 }
