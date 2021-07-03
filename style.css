@@ -276,3 +276,29 @@ footer h2{
     margin-bottom: 0px;
    
 }
+
+@media screen and (min-width:768px) {
+    header{
+        width: 768px;
+    }
+
+    header .bubble{
+        width: 768px;
+    }
+
+    #intro_section p{
+        width: 500px;
+    }
+
+    #buttons{
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 375px;
+    }
+
+    .purp{
+        margin-top: 0px;
+        
+    }
+
+}
