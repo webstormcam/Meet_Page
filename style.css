@@ -6,6 +6,10 @@ html,body{
     margin: 0px;
     padding: 0px;
     font-family: 'Red Hat Display', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #container{
