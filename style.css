@@ -318,13 +318,13 @@ footer h2{
     }
 
     #images{
-        width: 640px;
+        width: 768px;
         flex-direction: row;
       
     }
 
     .cube{
-        width: 150px;
+        width: 180px;
     }
 
     .imageblock:nth-child(1){
