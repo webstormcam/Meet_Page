@@ -50,6 +50,7 @@ header{
     color: #28283d;
     font-weight: 900;
     margin-bottom: 15px;
+    line-height: 1em;
    
 }
 
@@ -278,6 +279,15 @@ footer h2{
 }
 
 @media screen and (min-width:768px) {
+    #intro_section{
+        width: 768px;
+    }
+
+    #intro_section h1{
+        font-size: 50px;
+    }
+    
+    
     header{
         width: 768px;
     }
@@ -291,14 +301,16 @@ footer h2{
     }
 
     #buttons{
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: row;
-        width: 375px;
+        width: 500px;
     }
 
     .purp{
         margin-top: 0px;
+        margin-left: 20px;
         
     }
+   
 
 }
