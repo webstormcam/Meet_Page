@@ -312,6 +312,30 @@ footer h2{
         margin-bottom: 3px;
         
     }
+
+    #second_section{
+        width: 768px;
+    }
+
+    #images{
+        width: 640px;
+        flex-direction: row;
+      
+    }
+
+    .cube{
+        width: 150px;
+    }
+
+    .imageblock:nth-child(1){
+        margin-top: 20px;
+    }
+
+
+    footer{
+        background-image: url('imgs/tablet/image-footer.jpg');
+        width: 768px;
+    }
    
 
 }
