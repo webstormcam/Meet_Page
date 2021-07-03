@@ -211,7 +211,7 @@ footer{
 }
 
 .layer {
-    background-color: hsla(279, 73%, 46%, 0.61);
+    background-color: hsl(192, 37%, 48%, 0.61);
     position: absolute;
     top: 0;
     left: 0;
@@ -224,6 +224,10 @@ footer{
 footer h2, p{
     color: #fff;
     z-index: 10;
+}
+
+footer p{
+    margin-bottom: 30px;
 }
 
 
@@ -269,5 +273,6 @@ footer h2, p{
 
 footer h2{
     font-size: 30px;
+    margin-bottom: 0px;
    
 }
