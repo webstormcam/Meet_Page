@@ -6,6 +6,10 @@
     display: none;
 }
 
+.bigcube{
+    display: none;
+}
+
 html,body{
     margin: 0px;
     padding: 0px;
@@ -339,6 +343,9 @@ footer h2{
     footer{
         background-image: url('imgs/tablet/image-footer.jpg');
         width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #words h2{
@@ -361,10 +368,79 @@ footer h2{
         display:none
     }
 
+    #intro_section{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    #intro_section h1{
+        font-size: 70px;
+       
+    }
+
+    #intro_section p{
+        width: 600px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+       
+    }
+
+    #buttons{
+        width: 600px;
+    }
+
+    .intro_words{
+        position: relative;
+        top: 30px;
+    }
+
+    .img_holder{
+display: block;
+    }
+
+
+    .right{
+        position: relative;
+       top: 90px;
+    }
+
+
+
+
+
+    #second_section{
+        width: 100%;
+    }
+
+    .cube{
+        display: none;
+    }
+
+    .bigcube{
+        width: 300px;
+        display: block;
+        border-radius: 10px;
+        margin: 15px;
+    }
+
+    .imageblock{
+        justify-content: center;
+        width: auto;
+    }
+
+    #images{
+        width: 1440px;
+        flex-direction: row;
+        justify-content: center;
+      
+    }
+
+
+
     footer{
         background-size: url('imgs/desktop/image-footer.jpg');
         flex-direction: row;
-        background-position: right;
         text-align: left;
         justify-content: space-evenly;
     }
@@ -380,5 +456,9 @@ footer h2{
         margin-right: 40px;
         margin-top: 0px;
         margin-bottom: 0px;
+    }
+
+    #second_section{
+        margin-top: 100px;
     }
 }
