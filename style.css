@@ -360,4 +360,25 @@ footer h2{
     .bubble{
         display:none
     }
+
+    footer{
+        background-size: url('imgs/desktop/image-footer.jpg');
+        flex-direction: row;
+        background-position: right;
+        text-align: left;
+        justify-content: space-evenly;
+    }
+
+    footer h2{
+        width: 300px;
+        margin-top: 0px;
+        
+    }
+
+    footer p{
+        width: 300px;
+        margin-right: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
