@@ -216,6 +216,7 @@ footer{
     position: relative;
     padding: 60px;
     
+    
    
 }
 
@@ -346,6 +347,7 @@ footer h2{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+      
     }
 
     #words h2{
@@ -464,8 +466,8 @@ display: block;
 
 
     footer{
-        background-size: url('imgs/desktop/image-footer.jpg');
-   background-position: unset;
+        background-image:  url('imgs/desktop/image-footer.jpg');
+        background-size:cover;
         flex-direction: row;
         text-align: left;
         justify-content: space-evenly;
