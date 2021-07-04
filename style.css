@@ -410,6 +410,7 @@ display: block;
     }
 
 
+
     .right{
         position: relative;
        top: 90px;
@@ -449,6 +450,10 @@ display: block;
         width: auto;
     }
 
+    .imageblock:nth-child(1){
+        margin-top: 20px;
+    }
+
     #images{
         width: 1440px;
         flex-direction: row;
@@ -460,6 +465,7 @@ display: block;
 
     footer{
         background-size: url('imgs/desktop/image-footer.jpg');
+   background-position: unset;
         flex-direction: row;
         text-align: left;
         justify-content: space-evenly;
