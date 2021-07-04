@@ -467,6 +467,7 @@ display: block;
 
     footer{
         background-image:  url('imgs/desktop/image-footer.jpg');
+        background-position: top center;
         background-size:cover;
         flex-direction: row;
         text-align: left;
