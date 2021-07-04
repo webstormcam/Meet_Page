@@ -472,6 +472,7 @@ display: block;
         flex-direction: row;
         text-align: left;
         justify-content: space-evenly;
+        padding: 120px;
     }
 
     footer h2{
