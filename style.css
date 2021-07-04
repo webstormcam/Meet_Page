@@ -286,7 +286,7 @@ footer h2{
    
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:1440px) {
     #intro_section{
         width: 768px;
     }
@@ -387,7 +387,17 @@ footer h2{
     }
 
     #buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         width: 600px;
+    }
+
+    .purp{
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-bottom: 3px;
+        
     }
 
     .intro_words{
@@ -411,6 +421,16 @@ display: block;
 
     #second_section{
         width: 100%;
+        margin-top: 100px;
+  
+    }
+
+    #words h2{
+        font-size: 45px;
+    }
+
+    .grey{
+        width: 520px;
     }
 
     .cube{
@@ -458,7 +478,5 @@ display: block;
         margin-bottom: 0px;
     }
 
-    #second_section{
-        margin-top: 100px;
-    }
+   
 }
